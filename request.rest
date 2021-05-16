@@ -1,0 +1,24 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.bmF2ZWVu.kmslWsdgCwhRZ7o1O72-CndNO_e_SLt_xyn1VaJ-MAg
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "naveen2",
+    "email": "naveen2@gmail.com",
+    "password": "demoss"
+}
+
+###
+
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "name": "naveen",
+    "email": "naveen@gmail.com",
+    "password": "demoss"
+}
